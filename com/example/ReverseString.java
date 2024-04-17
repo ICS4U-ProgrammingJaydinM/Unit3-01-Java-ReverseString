@@ -1,3 +1,4 @@
+package com.example;
 // Imports
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
