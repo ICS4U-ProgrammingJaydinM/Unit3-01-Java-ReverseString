@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 /**
- * This Program tells the user what a 
+ * This Program tells the user what a.
  * word would be spelt backwards.
  * Using Input File and Output File.
  * @author Jaydin Madore
@@ -15,12 +15,16 @@ import java.io.IOException;
  * @since 2024-04-17
  */
 
-
-/* 
+/*
  * ReverseString class
- * 
+ *
 */
-public final class ReverseString{
+
+public final class ReverseString {
+    /** Private constructor to prevent instantiation. */
+    private ReverseString() {
+        throw new UnsupportedOperationException("Cannot instantiate");
+    }
     // This method reverses a string recursively.
     // It than returns The reversed string.
     public static String reverse(String str){
